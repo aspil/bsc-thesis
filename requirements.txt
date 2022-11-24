@@ -1,0 +1,9 @@
+git+https://github.com/pytorch/fairseq@336942734c85791a90baa373c212d27e7c722662#egg=fairseq
+torch
+miditoolkit
+scikit-learn
+numpy
+matplotlib
+requests==2.27.1
+omegaconf
+mido

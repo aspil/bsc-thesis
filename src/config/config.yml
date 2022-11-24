@@ -1,0 +1,19 @@
+data:
+  path: 'data/preprocessed'
+  bin_dir: 'baroque_data_bin'
+
+checkpoint:
+  path: 'checkpoints'
+  file: 'checkpoint85_baroque_musicbert_base.pt'
+#  file: 'checkpoint20_element_baroque_musicbert_base.pt'
+
+sampling_method: 'seq'
+
+prompt: null
+
+hyperparameters:
+  num_tokens: 50
+  top_k: 50
+  top_p: 0.5
+  temperature: 0.9
+  max_steps: 200
